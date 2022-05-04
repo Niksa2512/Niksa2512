@@ -1,0 +1,91 @@
+@charset "utf-8";
+*{
+	font-family: Century Gothic;
+}
+body{
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	height:100%;
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:20px;
+	position:fixed;
+	top: 1%;
+	right: 2.5%;
+	color: #fff;
+}
+ul li{
+	display:inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+ul li a:hover{
+	background-color:#fff;
+	color: #000;
+}
+ul li.aktivna a{
+background-color:#fff;
+	color: #000;
+}
+.slika-1 {
+	background-image:url(CSS/Slike/20210511_133136.jpg);
+}
+.slika-2{
+	background-image:url(CSS/Slike/20210511_132655.jpg);
+}
+.slika-3{
+	background-image:url(CSS/Slike/20210511_133730.jpg);
+}
+.slika-4{
+	background-image:url(CSS/Slike/20210511_133223.jpg);
+}
+.slika-5{
+	background-image:url(CSS/Slike/20210511_132844.jpg);
+}
+.slika-6{
+	background-image:url(CSS/Slike/20210602_165540.jpg);
+}
+.slika-7{
+	background-image:url(CSS/Slike/20210511_132635.jpg)
+}
+
+.kkc{
+	padding: 0 75px;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.galerija{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:90vh;
+	}
+
+.slika{
+flex:1;
+height:100%;
+background-position:center;
+background-size:cover;
+background-repeat:none;
+transition:0.5 ease;
+}
+
+.slika:hover{
+	flex-grow:7;
+}
+.naslov{
+	position: absolute;
+	top: 5%;
+	left: 47%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size:23px;
+}
